@@ -4,4 +4,3 @@ if (document.domain.includes("myvue.cascadetech.org")) {
     console.log("fixed grade for " + i)
   }
 }
-alert(document.domain);
