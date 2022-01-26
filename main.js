@@ -1,3 +1,4 @@
-for (var i=0;i<document.getElementsByClassName("mark").length;i++) {
-  document.getElementsByClassName("mark")[i].innerText = "A"
+if (document.domain.includes("myvue.cascadetech.org") {
+  document.getElementsByClassName("mark").forEach(schoolClass => schoolClass.innerText = "A")
 }
+alert(document.domain)
