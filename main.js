@@ -1,7 +1,7 @@
 if (document.domain.includes("myvue.cascadetech.org")) {
-  document.getElementsByClassName("mark").forEach((schoolClass, index) => {
-    schoolClass.innerText = "A";
-    console.log("fixed element" + index);
-  })
+  for (var i=0;i<document.getElementsByClassName("mark").length;i++) {
+    document.getElementsByClassName("mark")[i].innerText = "A"
+    console.log("fixed grade for " + i)
+  }
 }
 alert(document.domain);
